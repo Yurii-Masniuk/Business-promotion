@@ -46,3 +46,9 @@ a {
     color: #173a56;
     margin-right: 237px;
  }
+ .header-nav-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343d;
+ }
