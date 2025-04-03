@@ -4,24 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business-promotion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">
+    <header class="header">
+      <div class="header-logo">
+        <a class="header-logo" href="./index.html">
           <img src="./svg/logo.svg" alt="Logo" width="40" />
-          <p>Product</p>
+          <p class="header-logo-text">Product</p>
         </a>
-        <ul>
-          <li><a href="">Product</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Customers</a></li>
-          <li><a href="">Resources</a></li>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item"><a href="">Product</a></li>
+          <li class="header-nav-list-item"><a href="">Pricing</a></li>
+          <li class="header-nav-list-item"><a href="">Customers</a></li>
+          <li class="header-nav-list-item"><a href="">Resources</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
+      <ul class="header-button-list">
+        <li class="header-button-list-item">
+          <button type="button">Sign In</button>
+        </li>
+        <li class="header-button-list-item">
+          <button type="button">Sign Up</button>
+        </li>
       </ul>
     </header>
     <main>
