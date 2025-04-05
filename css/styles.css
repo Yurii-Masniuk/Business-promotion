@@ -1,3 +1,7 @@
+:root {
+    --font-family: poppins;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -18,37 +22,85 @@ img {
 a {
     text-decoration: none;
 }
+
+.header .container {
+    display: flex;
+    padding-left: 146px;
+    padding-right: 148px;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 .header-logo {
     display: flex;
     gap: 16px;
     align-items: center;
-    margin: 22px 148px;
+    margin-right: 237px;
+    padding: 24px 0;
 }
-.header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.header-nav-list {
-    width: 100%;
-    max-width: 380px;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 22px 560px;
-}
-.header-logo-text {    
+.header-logo-text {
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 30px;
     line-height: 93%;
     color: #173a56;
-    margin-right: 237px;
- }
- .header-nav-list-item {
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
+.header-nav-list-item {
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     color: #22343d;
- }
+}
+.header-button-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+}
+.header-button-s-in {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    min-width: 113px;
+    height: 42px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 0;
+}
+.header-button-s-up {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #02897a;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    min-width: 113px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 0;
+}
