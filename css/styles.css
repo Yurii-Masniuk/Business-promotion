@@ -1,5 +1,10 @@
 :root {
     --font-family: poppins;
+    --background-button-dark: #02897a;
+    --background-button-light: #fff;
+    --color-button-light: #173a56;
+    --color-button-dark: #fff;
+    --border-button-light: 1px solid #bcd0e5;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -73,14 +78,14 @@ a {
     font-weight: 600;
     font-size: 16px;
     text-align: center;
-    color: #173a56;
-    background: #fff;
+    color: var(--color-button-light);
+    background: var(--background-button-light);
     font-size: 16px;
     font-weight: 600;
     display: block;
     min-width: 113px;
     height: 42px;
-    border: 1px solid #bcd0e5;
+    border: var(--border-button-light);
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -92,8 +97,8 @@ a {
     font-weight: 600;
     font-size: 16px;
     text-align: center;
-    color: #fff;
-    background: #02897a;
+    color: var(--color-button-dark);
+    background: var(--background-button-dark);
     font-size: 16px;
     font-weight: 600;
     display: block;
@@ -160,8 +165,8 @@ h3 {
     font-weight: 700;
     font-size: 16px;
     text-align: center;
-    color: #fff;
-    background: #02897a;
+    color: var(--color-button-dark);
+    background: var(--background-button-dark);
     display: block;
     min-width: 178px;
     height: 53px;
@@ -178,13 +183,13 @@ h3 {
     min-width: 164px;
     height: 23px;
     border: none;
-    background-color: #fff;
+    background-color: var(--background-button-light);
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 16px;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #02897a;
+    color: var(--color-button-light);
     cursor: pointer;
 }
 .thought-content-img {
@@ -233,8 +238,8 @@ h3 {
     font-weight: 700;
     font-size: 16px;
     text-align: center;
-    color: #fff;
-    background: #02897a;
+    color: var(--color-button-dark);
+    background: var(--background-button-dark);
     display: block;
     min-width: 175px;
     height: 53px;
