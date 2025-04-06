@@ -85,6 +85,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 9px 0;
+    cursor: pointer;
 }
 .header-button-s-up {
     font-family: var(--font-family);
@@ -103,4 +104,77 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 9px 0;
+    cursor: pointer;
+}
+h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #22343d;
+    margin-bottom: 18px;
+}
+.thought .container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 145px;
+    padding-right: 145px;
+    height: 555px;
+}
+.thought-content {
+    width: 465px;
+    height: 331px;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.thought-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #22343d;
+    margin-bottom: 45px;
+}
+.thought-button-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.thought-button-get_st {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #02897a;
+    display: block;
+    min-width: 178px;
+    height: 53px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.thought-button-tri {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 164px;
+    height: 23px;
+    border: none;
+    background-color: #fff;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    cursor: pointer;
+}
+
+.thought-content-img {
+    width: 610px;
+    height: 555px;
 }
