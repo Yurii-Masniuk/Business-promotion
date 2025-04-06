@@ -22,15 +22,15 @@ img {
 a {
     text-decoration: none;
 }
-
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* #region Header */
 .header .container {
     display: flex;
     padding-left: 146px;
     padding-right: 148px;
-}
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
 }
 .header-logo {
     display: flex;
@@ -106,6 +106,8 @@ a {
     padding: 9px 0;
     cursor: pointer;
 }
+/* #endregion Header */
+/* #region Work at the speed of thought */
 h1 {
     font-family: var(--font-family);
     font-weight: 700;
@@ -113,6 +115,18 @@ h1 {
     line-height: 150%;
     color: #22343d;
     margin-bottom: 18px;
+}
+h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
 }
 .thought .container {
     display: flex;
@@ -173,8 +187,64 @@ h1 {
     color: #02897a;
     cursor: pointer;
 }
-
 .thought-content-img {
     width: 610px;
     height: 555px;
 }
+/* #endregion Work at the speed of thought */
+/* #region Product was Built Specifically for You */
+.product .container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+.product-title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 534px;
+}
+.product-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.product-list-item {
+    max-width: 255px;
+}
+.product-list-item-item {
+    padding-top: 18px;
+}
+.product-list-item-title {
+    text-align: center;
+    margin-bottom: 13px;
+}
+.product-list-item-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+.product-button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #02897a;
+    display: block;
+    min-width: 175px;
+    height: 53px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+/* #endregion Product was Built Specifically for You */
