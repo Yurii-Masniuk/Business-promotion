@@ -342,3 +342,43 @@ h3 {
     margin-top: 25px;
 }
 /* #endregion Customer Support */
+/* #region Collaborative */
+.collaborative .container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 145px;
+    padding-right: 145px;
+    height: 555px;
+    margin-bottom: 150px;
+}
+.collaborative-content {
+    width: 486px;
+    height: 418px;
+    margin-left: 0;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+.collaborative-content h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.collaborative-content h2 {
+    margin-bottom: 25px;
+}
+.collaborative-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-bottom: 30px;
+}
+.collaborative-content-list-item h3 {
+    font-size: 16px;
+    line-height: 162%;
+}
+.collaborative-content-img {
+    width: 540px;
+    height: 500px;
+}
+/* #endregion Collaborative */
