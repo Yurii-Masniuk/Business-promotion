@@ -1,5 +1,5 @@
 :root {
-    --font-family: poppins;
+    --font-family: poppins, sans-serif;
     --background-button-dark: #02897a;
     --background-button-light: #fff;
     --color-button-light: #173a56;
@@ -301,3 +301,44 @@ h3 {
     height: 500px;
 }
 /* #endregion Management */
+/* #region Customer Support */
+
+.support .container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 145px;
+    padding-right: 145px;
+    height: 555px;
+    margin-bottom: 100px;
+}
+.support-content-img {
+    width: 540px;
+    height: 500px;
+}
+.support-content {
+    width: 450px;
+    height: 419px;
+    margin: 40px 40px 40px auto;
+}
+.support-content h2 {
+    margin-top: 8px;
+}
+.support-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-top: 25px;
+}
+.support-content-list {
+    margin-top: 30px;
+    margin-left: auto;
+}
+.support-content-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-top: 25px;
+}
+/* #endregion Customer Support */
