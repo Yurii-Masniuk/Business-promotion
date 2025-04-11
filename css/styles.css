@@ -54,9 +54,10 @@ h3 {
 /* #region Header */
 .header .container {
     display: flex;
-    padding-left: 146px;
+    padding-left: 148px;
     padding-right: 148px;
     margin-bottom: 25px;
+    border: 3px solid rgb(49, 48, 48);
 }
 .header-logo {
     display: flex;
@@ -144,10 +145,11 @@ h3 {
 .thought .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 145px;
-    padding-right: 145px;
+    padding-left: 148px;
+    padding-right: 148px;
     height: 555px;
     margin-bottom: 100px;
+    border: 3px solid rgb(49, 48, 48);
 }
 .thought-content {
     width: 465px;
@@ -155,6 +157,7 @@ h3 {
     margin-left: 0;
     margin-top: auto;
     margin-bottom: auto;
+    border: 3px solid rgb(49, 48, 48);
 }
 .thought-content p {
     font-family: var(--font-family);
@@ -202,15 +205,17 @@ h3 {
     cursor: pointer;
 }
 .thought-content-img {
-    width: 610px;
-    height: 555px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 3px solid rgb(49, 48, 48);
 }
 /* #endregion Work at the speed of thought */
 /* #region Product was Built Specifically for You */
 .product .container {
     margin-bottom: 50px;
-    padding-left: 145px;
-    padding-right: 145px;
+    padding-left: 148px;
+    padding-right: 148px;
+    border: 3px solid rgb(49, 48, 48);
 }
 .product-title {
     text-align: center;
@@ -264,17 +269,18 @@ h3 {
 .management .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 145px;
-    padding-right: 145px;
-    height: 555px;
+    padding-left: 148px;
+    padding-right: 148px;
+    height: 500px;
     margin-bottom: 100px;
+    border: 3px solid rgb(49, 48, 48);
 }
 .management-content {
     width: 486px;
     height: 418px;
     margin-left: 0;
-    margin-top: 41px;
-    margin-bottom: 41px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .management-content h3 {
     font-size: 16px;
@@ -297,8 +303,9 @@ h3 {
     margin-top: 30px;
 }
 .management-content-img {
-    width: 540px;
-    height: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 3px solid rgb(49, 48, 48);
 }
 /* #endregion Management */
 /* #region Customer Support */
@@ -306,19 +313,22 @@ h3 {
 .support .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 145px;
-    padding-right: 145px;
-    height: 555px;
+    padding-left: 148px;
+    padding-right: 148px;
+    height: 500px;
     margin-bottom: 100px;
+    border: 3px solid rgb(49, 48, 48);
 }
 .support-content-img {
-    width: 540px;
-    height: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 3px solid rgb(49, 48, 48);
 }
 .support-content {
     width: 450px;
     height: 419px;
-    margin: 40px 40px 40px auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .support-content h2 {
     margin-top: 8px;
