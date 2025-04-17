@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 .container {
-    max-width: 1400px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 h1 {
@@ -37,7 +37,6 @@ h1 {
     font-size: 40px;
     line-height: 150%;
     color: #22343d;
-    margin-bottom: 18px;
 }
 h2 {
     font-family: var(--font-family);
@@ -54,16 +53,14 @@ h3 {
 /* #region Header */
 .header .container {
     display: flex;
-    padding-left: 148px;
-    padding-right: 148px;
-    margin-bottom: 25px;
-    border: 3px solid rgb(49, 48, 48);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .header-logo {
     display: flex;
     gap: 16px;
     align-items: center;
-    margin-right: 237px;
+    margin-right: 240px;
     padding: 24px 0;
 }
 .header-logo-text {
@@ -145,19 +142,12 @@ h3 {
 .thought .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 148px;
-    padding-right: 148px;
-    height: 555px;
-    margin-bottom: 100px;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
+    padding: 20px 20px 0 20px;
 }
 .thought-content {
     width: 465px;
-    height: 331px;
     margin-left: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    border: 3px solid rgb(49, 48, 48);
 }
 .thought-content p {
     font-family: var(--font-family);
@@ -165,7 +155,8 @@ h3 {
     font-size: 18px;
     line-height: 156%;
     color: #22343d;
-    margin-bottom: 45px;
+    padding-top: 16px;
+    padding-bottom: 48px;
 }
 .thought-button-list {
     display: flex;
@@ -205,29 +196,25 @@ h3 {
     cursor: pointer;
 }
 .thought-content-img {
-    margin-top: auto;
-    margin-bottom: auto;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
 }
 /* #endregion Work at the speed of thought */
 /* #region Product was Built Specifically for You */
 .product .container {
-    margin-bottom: 50px;
-    padding-left: 148px;
-    padding-right: 148px;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
+    padding: 100px 15px 0 15px;
 }
 .product-title {
     text-align: center;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 534px;
+    max-width: 540px;
 }
 .product-list {
     display: flex;
     gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
 }
 .product-list-item {
     max-width: 255px;
