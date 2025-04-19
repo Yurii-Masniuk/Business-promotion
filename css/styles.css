@@ -244,11 +244,8 @@ h3 {
     min-width: 175px;
     height: 53px;
     border: none;
-    border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border-radius: 4px;    
+    margin: 50px auto 0 auto;
     cursor: pointer;
 }
 /* #endregion Product was Built Specifically for You */
@@ -256,25 +253,18 @@ h3 {
 .management .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 148px;
-    padding-right: 148px;
-    height: 500px;
-    margin-bottom: 100px;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
+    padding: 100px 20px 0 20px;
 }
 .management-content {
     width: 486px;
-    height: 418px;
     margin-left: 0;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 .management-content h3 {
     font-size: 16px;
 }
 .management-content h2 {
-    margin-top: 8px;
-    margin-bottom: 13px;
+    padding-top: 8px;
 }
 .management-content p {
     font-family: var(--font-family);
@@ -282,17 +272,17 @@ h3 {
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
-    margin-top: 12px;
+    padding-top: 24px;
+}
+.management-content-list-item {
+    padding-top: 24px;
 }
 .management-content-list-item h3 {
     font-size: 16px;
     line-height: 162%;
-    margin-top: 30px;
 }
 .management-content-img {
-    margin-top: auto;
-    margin-bottom: auto;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
 }
 /* #endregion Management */
 /* #region Customer Support */
