@@ -290,43 +290,37 @@ h3 {
 .support .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 148px;
-    padding-right: 148px;
-    height: 500px;
-    margin-bottom: 100px;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
+    padding: 100px 20px 0 20px;
 }
 .support-content-img {
-    margin-top: auto;
-    margin-bottom: auto;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
 }
 .support-content {
     width: 450px;
-    height: 419px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-left: 0;
+}
+.support-content h3 {
+    font-size: 16px;
 }
 .support-content h2 {
-    margin-top: 8px;
+    padding-top: 8px;
 }
 .support-content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
-    margin-top: 25px;
+    padding-top: 24px;
 }
 .support-content-list {
-    margin-top: 30px;
-    margin-left: auto;
+    padding-top: 24px;
 }
 .support-content-list-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
-    margin-top: 25px;
 }
 /* #endregion Customer Support */
 /* #region Collaborative */
