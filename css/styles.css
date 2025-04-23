@@ -382,25 +382,18 @@ h3 {
 .collaborative .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 145px;
-    padding-right: 145px;
-    height: 500px;
-    margin-bottom: 150px;
-    border: 3px solid rgb(49, 48, 48);
+    align-items: center;
+    padding: 100px 20px 0 20px;
 }
 .collaborative-content {
     width: 486px;
-    height: 418px;
     margin-left: 0;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 .collaborative-content h3 {
     font-size: 16px;
-    margin-bottom: 8px;
 }
 .collaborative-content h2 {
-    margin-bottom: 25px;
+    padding-top: 8px;
 }
 .collaborative-content p {
     font-family: var(--font-family);
@@ -408,7 +401,10 @@ h3 {
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
-    margin-bottom: 30px;
+    padding-top: 24px;
+}
+.collaborative-content-list-item {
+    padding-top: 24px;
 }
 .collaborative-content-list-item h3 {
     font-size: 16px;
