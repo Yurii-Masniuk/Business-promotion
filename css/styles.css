@@ -280,11 +280,14 @@ h3 {
 }
 /* #endregion Product was Built Specifically for You */
 /* #region Management */
+.management {
+    padding-top: 100px;
+}
 .management .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 .management-content {
     width: 486px;
@@ -294,7 +297,7 @@ h3 {
     font-size: 16px;
 }
 .management-content h2 {
-    padding-top: 8px;
+    margin-top: 8px;
 }
 .management-content p {
     font-family: var(--font-family);
@@ -302,14 +305,22 @@ h3 {
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
-    padding-top: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
-.management-content-list-item {
-    padding-top: 24px;
+.management-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.management-content-list-item p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .management-content-list-item h3 {
     font-size: 16px;
     line-height: 162%;
+    margin-bottom: 24px;
 }
 .management-content-img {
     align-items: center;
