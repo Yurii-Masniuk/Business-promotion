@@ -205,7 +205,7 @@ h3 {
 /* #endregion Work at the speed of thought */
 /* #region Product was Built Specifically for You */
 .product {
-    padding: 100px;
+    padding-top: 100px;
 }
 .product .container {
     align-items: center;
