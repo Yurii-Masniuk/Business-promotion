@@ -54,6 +54,9 @@ h3 {
     font-size: 22px;
     color: #22343d;
 }
+.icon-pict {
+    flex-shrink: 0;
+}
 /* #region Header */
 .header .container {
     display: flex;
@@ -300,7 +303,6 @@ h3 {
     margin-top: 8px;
 }
 .management-content p {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
@@ -328,11 +330,14 @@ h3 {
 /* #endregion Management */
 /* #region Customer Support */
 
+.support {
+    padding-top: 100px;
+}
 .support .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 .support-content-img {
     align-items: center;
@@ -345,15 +350,15 @@ h3 {
     font-size: 16px;
 }
 .support-content h2 {
-    padding-top: 8px;
+    margin-top: 8px;
 }
 .support-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 .support-content-list {
     display: flex;
@@ -393,11 +398,14 @@ h3 {
 }
 /* #endregion Customer Support */
 /* #region Collaborative */
+.collaborative {
+    padding-top: 100px;
+}
 .collaborative .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 .collaborative-content {
     width: 486px;
@@ -407,22 +415,29 @@ h3 {
     font-size: 16px;
 }
 .collaborative-content h2 {
-    padding-top: 8px;
+    margin-top: 8px;
 }
 .collaborative-content p {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
-    padding-top: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
-.collaborative-content-list-item {
-    padding-top: 24px;
+.collaborative-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.collaborative-content-list-item p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .collaborative-content-list-item h3 {
     font-size: 16px;
     line-height: 162%;
+    margin-bottom: 24px;
 }
 .collaborative-content-img {
     margin-top: auto;
@@ -431,8 +446,11 @@ h3 {
 }
 /* #endregion Collaborative */
 /* #region Quick & Easy Process */
+.process {
+    padding-top: 100px;
+}
 .process .container {
-    padding: 100px 120px 0 120px;
+    padding: 0 120px 0 120px;
 }
 .process-title {
     text-align: center;
@@ -456,14 +474,13 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
-.process-list-one,
-.process-list-two {
+.process-list {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 24px;
 }
-.process-list-one-item,
-.process-list-two-item {
+.process-list-item {
     width: 405px;
     display: flex;
     justify-content: space-between;
@@ -499,18 +516,20 @@ h3 {
 }
 /* #endregion Quick & Easy Process */
 /* #region Contents Strategies */
-
+.strateg {
+    padding-top: 100px;
+}
 .strateg .container {
     align-items: center;
-    padding: 100px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 .strateg-title {
     text-align: left;
 }
 .strateg-title-p {
     text-align: left;  
-    padding-top: 10px;
-    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
@@ -527,10 +546,11 @@ h3 {
     width: 350px;
     flex-shrink: 0;
 }
+.strateg-list-item-text {
+    padding: 24px;
+}
 .strateg-list-item p {
-    padding-top: 24px;
-    padding-bottom: 12px;
-    padding-left: 24px;
+    margin-bottom: 12px;
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
@@ -540,8 +560,6 @@ h3 {
     font-weight: 700;
 }
 .strateg-list-item h3 {
-    padding-bottom: 40px;
-    padding-left: 24px;
     font-weight: 700;
     font-size: 24px;
     line-height: 167%;
@@ -556,17 +574,20 @@ h3 {
 
 /* #endregion Contents Strategies */
 /* #region Price Table */
+.price {
+    padding-top: 100px;
+}
 .price .container {
     align-items: center;
-    padding: 100px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 .price-title {
     text-align: center;
 }
 .price-title-p {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
