@@ -93,15 +93,12 @@ h3 {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 175%;
-    color: #22343d;
+    line-height: 1.75;
+    color: var(--color-fonts);
 }
-.header-nav-list-item-pr {
-    font-family: var(--font-family);
+.header-nav-list-item:hover,
+.header-nav-list-item:focus {
     font-weight: 600;
-    font-size: 16px;
-    line-height: 175%;
-    color: #22343d;
 }
 .header-button-list {
     display: flex;
