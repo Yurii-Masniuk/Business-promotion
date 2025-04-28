@@ -1,5 +1,8 @@
 :root {
     --font-family: poppins, sans-serif;
+    --second-family: inter;
+    --third-family: montserrat;
+    --color-fonts: #22343d;
     --background-button-dark: #02897a;
     --background-button-light: #fff;
     --color-button-light: #173a56;
@@ -40,19 +43,19 @@ h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 150%;
-    color: #22343d;
+    color: var(--color-fonts);
 }
 h2 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 32px;
-    color: #22343d;
+    color: var(--color-fonts);
 }
 h3 {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 22px;
-    color: #22343d;
+    color: var(--color-fonts);
 }
 .icon-pict {
     flex-shrink: 0;
@@ -585,13 +588,14 @@ h3 {
     text-align: center;
 }
 .price-title-p {
+    font-family: var(--font-family);
     text-align: center;
     margin-top: 10px;
     margin-bottom: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
-    color: #22343d;
+    color: var(--color-fonts);
 }
 .price-list {
     display: flex;
@@ -599,6 +603,7 @@ h3 {
     gap: 48px;
 }
 .price-list-item {
+    padding: 32px;
     border-radius: 8px;
     width: 322px;
     box-shadow: 
@@ -607,21 +612,22 @@ h3 {
     flex-shrink: 0;
 }
 .price-list-item h3 {
+    font-family: var(--font-family);
     text-align: center;
-    padding-top: 32px;
     font-weight: 700;
     font-size: 24px;
     line-height: 167%;
-    color: #22343d;
+    color: var(--color-fonts);
 }
 .price-list-item p {
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 16px;
+    font-family: var(--third-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 250%;
-    color: #22343d;
+    color: var(--color-fonts);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
 }
 .price-list-item-cost {
     display: flex;
@@ -629,6 +635,7 @@ h3 {
     gap: 8px;
 }
 .price-list-item-cost h4 {
+    font-family: var(--third-family);
     font-weight: 700;
     font-size: 76px;
     line-height: 132%;
@@ -643,6 +650,7 @@ h3 {
     gap: 4px;
 }
 .price-list-item-text h5 {
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 24px;
     line-height: 125%;
@@ -650,6 +658,7 @@ h3 {
     color: var(--background-button-dark);
 }
 .price-list-item-text span {
+    font-family: var(--third-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 119%;
@@ -657,8 +666,8 @@ h3 {
     color: #afafaf;
 }
 .price-list-item-features {
-    padding-top: 16px;
-    padding-bottom: 32px;
+    margin-top: 16px;
+    margin-bottom: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -666,117 +675,40 @@ h3 {
     gap: 16px;
 }
 .price-list-item-features li {
+    font-family: var(--third-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 137%;
     letter-spacing: 0.01em;
-    color: #22343d;
+    color: var(--color-fonts);
 }
 .price-button {
+    font-family: var(--third-family);
     font-weight: 600;
     font-size: 18px;
     text-align: center;
     color: var(--color-button-dark);
-    background: var(--background-button-dark);
+    background-color: var(--background-button-dark);
     display: block;
     min-width: 139px;
     height: 44px;
     border: none;
     border-radius: 8px;
-    margin: 0 auto 32px auto;
+    margin: 0 auto;
     cursor: pointer;
 }
-.price-list-dark {
-    display: flex;
-    justify-content: space-between;
-    gap: 48px;
+.dark {
+    background-color: var(--background-button-dark);
 }
-.price-list-item-dark {
-    border-radius: 8px;
-    width: 322px;
-    box-shadow:
-        0 2px 8px 0 rgba(0, 0, 0, 0.25);
-    background: var(--background-button-dark);
-    flex-shrink: 0;
+.dark h3,
+.dark h4,
+.dark h5,
+.dark p,
+.dark li {
+    color: var(--color-button-dark);
 }
-.price-list-item-dark h3 {
-    text-align: center;
-    padding-top: 32px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 167%;
-    color: var(--background-button-light);
-}
-.price-list-item-dark p {
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 250%;
-    color: var(--background-button-light);
-}
-.price-list-item-cost-dark {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-}
-.price-list-item-cost-dark h4 {
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 132%;
-    letter-spacing: 0em;
-    text-align: center;
-    color: var(--background-button-light);
-}
-.price-list-item-text-dark {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
-}
-.price-list-item-text-dark h5 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 125%;
-    letter-spacing: 0em;
-    color: #e0e0e0;
-}
-.price-list-item-text-dark span {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 119%;
-    letter-spacing: 0.01em;
-    color: var(--background-button-light);
-}
-.price-list-item-features-dark {
-    padding-top: 16px;
-    padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
-}
-.price-list-item-features-dark li {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 137%;
-    letter-spacing: 0.01em;
-    color: var(--background-button-light);
-}
-.price-button-dark {
-    font-weight: 600;
-    font-size: 18px;
-    text-align: center;
+.dark button {
     color: var(--background-button-dark);
-    background: var(--background-button-light);
-    display: block;
-    min-width: 139px;
-    height: 44px;
-    border: none;
-    border-radius: 8px;
-    margin: 0 auto 32px auto;
-    cursor: pointer;
+    background-color: var(--color-button-dark);
 }
 /* #endregion Price Table */
