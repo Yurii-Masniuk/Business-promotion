@@ -144,6 +144,13 @@ h3 {
     padding: 9px 0;
     cursor: pointer;
 }
+.header-button-s-in:hover,
+.header-button-s-up:hover,
+.header-button-s-in:focus,
+.header-button-s-up:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
+}
 /* #endregion Header */
 /* #region Work at the speed of thought */
 .thought .container {
@@ -201,6 +208,13 @@ h3 {
     text-decoration-skip-ink: none;
     color: var(--background-button-dark);
     cursor: pointer;
+}
+.thought-button-get_st:hover,
+.thought-button-get_st:focus,
+.thought-button-tri:hover,
+.thought-button-tri:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
 }
 .thought-content-img {
     align-items: center;
@@ -280,6 +294,11 @@ h3 {
     border-radius: 4px;    
     margin: 50px auto 0 auto;
     cursor: pointer;
+}
+.product-button:hover,
+.product-button:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
 }
 /* #endregion Product was Built Specifically for You */
 /* #region Management */
@@ -529,6 +548,11 @@ h3 {
     margin: 50px auto 0 auto;
     cursor: pointer;
 }
+.process-button:hover,
+.process-button:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
+}
 /* #endregion Quick & Easy Process */
 /* #region Contents Strategies */
 .strateg {
@@ -722,5 +746,10 @@ h3 {
 .dark button {
     color: var(--background-button-dark);
     background-color: var(--color-button-dark);
+}
+.price-button:hover,
+.price-button:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
 }
 /* #endregion Price Table */
